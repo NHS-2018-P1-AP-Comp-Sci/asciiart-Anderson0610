@@ -23,7 +23,7 @@ public class ASCIIArt{
 	}
 	public static void horizontal() {
 		//Print a line of |
-		System.out.println("             |||||||||||||||||||||||||||            ");
+		System.out.println("             |||||||||||||||||||||||||||             ");
 	}
 	public static void body_Side() {
 		//print the body side
