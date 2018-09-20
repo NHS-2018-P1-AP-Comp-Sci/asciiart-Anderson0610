@@ -15,3 +15,56 @@
  */
 
 // YOUR CODE GOES HERE :)
+public class ASCIIArt{
+	public static void main(String[] args) {
+		Head();
+		body();
+		legs();
+	}
+	public static void horizontal() {
+		//Print a line of |
+		System.out.println("             |||||||||||||||||||||||||||           ");
+	}
+	public static void body_Side() {
+		//print the body side
+		System.out.println("             |                         |           ");
+	}
+	public static void Head(){
+		//print the head of the android
+		System.out.println("                \\                  /              ");
+		System.out.println("                 \\                /               ");
+		System.out.println("                    | | | | | | |                  ");
+		System.out.println("                  |               |                ");
+		System.out.println("                |                   |              ");
+		System.out.println("              |     O         O       |            ");
+		System.out.println("             |                         |           ");
+		horizontal();
+		System.out.println("             ");
+	}
+	public static void body() {
+		//form the body of the android
+		horizontal();
+		hands();
+		body_Side();
+		body_Side();
+		body_Side();
+		horizontal();
+	}
+	public static void legs() {
+		//print the leg of the android
+		System.out.println("                  |   |       |   |");
+		System.out.println("                  |   |       |   |");
+		System.out.println("                  |   |       |   |");
+		System.out.println("                  |   |       |   |");
+		System.out.println("                   ---         ---");
+	}
+	public static void hands() {
+		//print hands
+		System.out.println("      ---    |                         |    ---       ");
+		System.out.println("     |   |   |                         |   |   |      ");
+		System.out.println("     |   |   |                         |   |   |      ");
+		System.out.println("     |   |   |                         |   |   |      ");
+		System.out.println("      ---    |                         |    ---       ");
+		
+	}
+}
